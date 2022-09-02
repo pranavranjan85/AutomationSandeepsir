@@ -1,0 +1,15 @@
+<suite name="Suite">
+   <groups>
+       <run>
+         <include name="smoke"/>
+         <include name="regression"/>
+      </run>
+   </groups>
+  <test thread-count="3" name="Test">
+    <classes>
+      <class name="com.actitime.testscript.TaskModuleForGroup"/>
+      <class name="com.actitime.testscript.CostomerModuleForGroup"/>
+      <class name="com.actitime.testscript.ProjectModuleForGroup"/>
+    </classes>
+  </test>
+</suite> 
